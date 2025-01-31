@@ -1,17 +1,18 @@
 class Solution {
     public static void main(String[] args) {
         int[] n ={1,3,5,6};
-        System.out.println(searchInsert(n,7));
+        int target = 7;
+        System.out.println(searchInsert(n,target));
     }
-    static int searchInsert(int[] nums, int target) {
+    static int searchInsert(int[] num, int target) {
         int start = 0;
-        int end = nums.length;
+        int end = num.length;
         while(start<=end){
             int mid = start +(end-start)/2;
-            if (nums[mid] == target){
+            if (num[mid] == target){
                 return mid;
             }
-            if (nums[mid]< target){
+            if (num[mid]< target){
                 start = mid+1;
             }
             else{
