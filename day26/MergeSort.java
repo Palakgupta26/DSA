@@ -1,5 +1,5 @@
 package day26;
-
+// time complexity = O(n*log(n))
 import java.util.Arrays;
 
 public class MergeSort {
