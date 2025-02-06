@@ -34,8 +34,7 @@ public class Permutation {
         for (int i = 0; i < p.length() + 1; i++) {
             String f = p.substring(0, i);
             String s = p.substring(i);
-            String ans = f + ch + s;
-            answer.addAll(perm(ans, up.substring(1)));
+            answer.addAll(perm(f + ch + s, up.substring(1)));
         }
         return answer;
     }
