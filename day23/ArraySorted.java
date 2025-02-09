@@ -7,7 +7,7 @@ public class ArraySorted {
     }
 
     static boolean isSorted(int[] arr,int n){
-        if(arr[n]== arr.length-1){
+        if(n== arr.length-1){
             return true;
         }
 
