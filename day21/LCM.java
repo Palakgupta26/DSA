@@ -2,8 +2,8 @@ package day21;
 
 public class LCM{
     public static void main(String[] args) {
-        int a = 10;
-        int b = 9;
+        int a = 9;
+        int b = 18;
         System.out.println(lcm(a,b));
     }
     static int lcm(int a, int b){
