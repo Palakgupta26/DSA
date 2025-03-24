@@ -5,11 +5,11 @@ import java.util.Arrays;
 //worst case when pivot is smallest or largest
 //best case when pivot is largest
 //O(N^2)
-//not stable, in space
+//not stable, in place
 // merge sort is better for link-list
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arr ={3,4,5,1,2,6,0};
+        int[] arr ={1,7,4,3,2,7,9};
         sort(arr,0,arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
