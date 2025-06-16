@@ -1,3 +1,5 @@
+package day36;
+
 public class day36 {
     public static void main(String[] args) {
         int[][] board = new int[][]{
